@@ -40,7 +40,7 @@ func (wf WeatherForecast) notifySubs() {
 
 // As an example I use an imitation of a weather forcast server as a subject and TV stations as observers (clients)
 func main() {
-	// no factory method to save time AND because when initializing objects are empty
+	// no factory method to save time AND because objects are empty when initializing them.
 	observer1 := TVstation1{}
 	observer2 := TVstation2{}
 
