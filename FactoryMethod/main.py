@@ -1,7 +1,13 @@
-#  The idea of Factory pattern is to create a helper function, which
-#  will construct different class types based on user input.
-#  Benefit of Factory pattern is loose coupling, because you leave only a type selection
-#  for a user, leaving object creation a library's problem.
+'''
+The idea of Factory pattern is to create a helper function, which
+will construct different class types based on user input.
+
+Link: https://www.geeksforgeeks.org/factory-method-for-designing-pattern/?ref=lbp
+
+Benefit of Factory pattern is loose coupling, because you leave only a type selection
+for a user, leaving object creation a library's problem.
+'''
+
 
 class ArchLinux:
 	def __init__(self):
