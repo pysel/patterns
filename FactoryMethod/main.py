@@ -1,4 +1,6 @@
 '''
+Type: Creational 
+
 The idea of Factory pattern is to create a helper function, which
 will construct different class types based on user input.
 

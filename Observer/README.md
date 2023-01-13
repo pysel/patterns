@@ -1,5 +1,7 @@
 # Observer Pattern
 
+Type: Behavioral
+
 ## Explanation
 
 Observer Pattern is useful when exists a dependency between a single object (subject) and many listeners (observers) aka one to many relationship.
