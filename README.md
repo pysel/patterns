@@ -12,11 +12,11 @@ All knowledge comes from <https://www.geeksforgeeks.org/software-design-patterns
 
 ### Design Pattern types
 
-    * Creational
-        These design patterns are all about class instantiation or object creation. These patterns can be further categorized into Class-creational patterns and object-creational patterns. 
-    
-    * Structural
-        These design patterns are about organizing different classes and objects to form larger structures and provide new functionality. 
-    
-    * Behavioral
-        Behavioral patterns are about identifying common communication patterns between objects and realizing these patterns. 
+* Creational
+    These design patterns are all about class instantiation or object creation. These patterns can be further categorized into Class-creational patterns and object-creational patterns
+
+* Structural
+    These design patterns are about organizing different classes and objects to form larger structures and provide new functionality
+
+* Behavioral
+    Behavioral patterns are about identifying common communication patterns between objects and realizing these patterns
