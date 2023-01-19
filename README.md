@@ -9,6 +9,8 @@ All knowledge comes from <https://www.geeksforgeeks.org/software-design-patterns
 
 * Factory Method (python)
 * Observer Pattern (golang)
+* Singletone (python)
+* Decorator Pattern (golang)
 
 ### Design Pattern types
 
