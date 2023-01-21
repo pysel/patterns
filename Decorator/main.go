@@ -27,7 +27,7 @@ func createPerson(name string, age uint64, nationality string) Person {
 
 // Now you think: hmmm, it would be great to have a function that creates people with random age.
 // For that we need to wrap the createPerson function into our decorator function
-func decoratorCreateRandomAgePerson(name, nationality string, personFactory func(string, uint64, string) Person) Person {
+func DecoratorCreateRandomAgePerson(name, nationality string, personFactory func(string, uint64, string) Person) Person {
 	rand.Seed(time.Now().UnixNano()) // to generate new random numbers each time
 
 	randomAge := rand.Intn(100)
@@ -38,7 +38,7 @@ func decoratorCreateRandomAgePerson(name, nationality string, personFactory func
 func main() {
 	var personWithRandAge Person
 	for i := 0; i < 5; i++ {
-		personWithRandAge = decoratorCreateRandomAgePerson("Ruslan", "European", createPerson)
+		personWithRandAge = DecoratorCreateRandomAgePerson("Ruslan", "European", createPerson)
 		fmt.Println("Person: ", personWithRandAge.Name, personWithRandAge.Age, personWithRandAge.Nationality)
 	}
 	// as you can see, all created people have different age field
