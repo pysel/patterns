@@ -12,6 +12,7 @@ All knowledge comes from <https://www.geeksforgeeks.org/software-design-patterns
 * Singletone (python)
 * Decorator Pattern (golang)
 * Strategy Pattern (python)
+* Adapter Pattern (rust)
 
 ### Design Pattern types
 
