@@ -11,6 +11,7 @@ All knowledge comes from <https://www.geeksforgeeks.org/software-design-patterns
 * Observer Pattern (golang)
 * Singletone (python)
 * Decorator Pattern (golang)
+* Strategy Pattern (python)
 
 ### Design Pattern types
 
