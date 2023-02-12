@@ -13,6 +13,7 @@ All knowledge comes from <https://www.geeksforgeeks.org/software-design-patterns
 * Decorator Pattern (golang)
 * Strategy Pattern (python)
 * Adapter Pattern (rust)
+* Command Pattern (golang)
 
 ### Design Pattern types
 
