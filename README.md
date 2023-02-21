@@ -14,6 +14,7 @@ All information comes from <https://www.geeksforgeeks.org/software-design-patter
 * Strategy Pattern (python)
 * Adapter Pattern (rust)
 * Command Pattern (golang)
+* Iterator Pattern (golang)
 
 ### Design Pattern types
 
