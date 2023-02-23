@@ -10,8 +10,10 @@ Type: behavioral
 Idea: abstract iteration over an object via iterator interface that has `.createIterator()` method that handles the iteration over a list of objects.
 
 As an example we have a notification object. We also have a collection of notifications (basically, a list).
-We implement iterator using an `Iterator` interface to implement it with `NotificationIterator` for iterating over a list of notifications
-`Collection` interface is used to specify a collection (list of objects) that is able to create its own iterator (1)
+
+We implement iterator using an `Iterator` interface to implement it by `NotificationIterator` struct for iterating over a list of notifications.
+
+`Collection` interface is used to specify a collection (list of objects), which is possible to iterate over (1)
 */
 
 // Interface for iterating over an object
