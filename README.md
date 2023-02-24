@@ -16,7 +16,7 @@ All information comes from <https://www.geeksforgeeks.org/software-design-patter
 * Command Pattern (golang)
 * Iterator Pattern (golang)
 
-### Design Pattern types
+### Design Pattern Types
 
 * **Creational**
 
