@@ -16,6 +16,10 @@ All information comes from <https://www.geeksforgeeks.org/software-design-patter
 * Command Pattern (golang)
 * Iterator Pattern (golang)
 
+## Planned Patterns
+
+* Curiously recurring template pattern (CRTP)
+
 ### Design Pattern Types
 
 * **Creational**
