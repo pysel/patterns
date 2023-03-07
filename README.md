@@ -19,6 +19,7 @@ All information comes from <https://www.geeksforgeeks.org/software-design-patter
 ## Planned Patterns
 
 * Curiously recurring template pattern (CRTP)
+* Flyweight design pattern
 
 ### Design Pattern Types
 
