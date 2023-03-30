@@ -5,7 +5,7 @@
 This repository is intended to be a place to study Software Design Patterns.
 All information comes from <https://www.geeksforgeeks.org/software-design-patterns/>
 
-## Implemented Patterns
+## Already Implemented Patterns
 
 * Factory Method (python)
 * Observer Pattern (golang)
