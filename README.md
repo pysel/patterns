@@ -15,6 +15,7 @@ All information comes from <https://www.geeksforgeeks.org/software-design-patter
 * Adapter Pattern (rust)
 * Command Pattern (golang)
 * Iterator Pattern (golang)
+* Abstract Factory (rust)
 
 ## Planned Patterns
 
