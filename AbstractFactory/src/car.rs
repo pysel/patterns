@@ -19,13 +19,25 @@ pub struct Car {
 
 
 pub fn create_car(model: CarType, location: Location) {
-
+    let car: Car = Car {
+        model: model,
+        location: location,
+    };
+    match model {
+        CarType::MICRO => {
+            let micro_car: Box<dyn MicroCar> = Box::new(car);
+            micro_car.explain_car();
+        },
+        CarType::RV => {
+            let rv_car: Box<dyn RVCar> = Box::new(car);
+            rv_car.explain_car();
+        },
+    }
 }
 
 trait DefaultCar {
     fn set_model(self, model: CarType);
     fn set_location(self, location: Location);
-    fn explain_car(&self);
 }
 
 impl DefaultCar for Car {
@@ -34,9 +46,6 @@ impl DefaultCar for Car {
     }
     fn set_location(mut self, location: Location) {
         self.location = location;
-    }
-    fn explain_car(&self) {
-        println!("Default. Model: {:?}, Location: {:?}", self.model, self.location);
     }
 }
 
