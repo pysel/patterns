@@ -29,10 +29,10 @@ trait DefaultCar {
 }
 
 impl DefaultCar for Car {
-    fn set_model(self, model: CarType) {
+    fn set_model(mut self, model: CarType) {
         self.model = model;
     }
-    fn set_location(self, location: Location) {
+    fn set_location(mut self, location: Location) {
         self.location = location;
     }
     fn explain_car(&self) {
@@ -41,7 +41,21 @@ impl DefaultCar for Car {
 }
 
 trait RVCar: DefaultCar {
+    fn explain_car(&self);
+}
+
+impl RVCar for Car {
     fn explain_car(&self) {
         println!("RV. Model: {:?}, Location: {:?}", self.model, self.location);
+    }
+}
+
+trait MicroCar: DefaultCar {
+    fn explain_car(&self);
+}
+
+impl MicroCar for Car {
+    fn explain_car(&self) {
+        println!("Micro. Model: {:?}, Location: {:?}", self.model, self.location);
     }
 }

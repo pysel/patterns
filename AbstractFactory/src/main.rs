@@ -1,5 +1,5 @@
 mod car;
 
 fn main() {
-    let car: car::Car = car::;
+    let car: car::Car =;
 }
