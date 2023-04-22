@@ -17,10 +17,6 @@ All information comes from <https://www.geeksforgeeks.org/software-design-patter
 * Iterator Pattern (golang)
 * Abstract Factory (rust)
 
-## Planned Patterns
-
-* Curiously recurring template pattern (CRTP)
-* Flyweight design pattern
 
 ### Design Pattern Types
 
