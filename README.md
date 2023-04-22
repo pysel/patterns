@@ -17,7 +17,6 @@ All information comes from <https://www.geeksforgeeks.org/software-design-patter
 * Iterator Pattern (golang)
 * Abstract Factory (rust)
 
-
 ### Design Pattern Types
 
 * **Creational**
