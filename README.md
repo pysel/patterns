@@ -8,14 +8,15 @@ All information comes from <https://www.geeksforgeeks.org/software-design-patter
 ## Already Implemented Patterns
 
 * Factory Method (python)
-* Observer Pattern (golang)
+* Observer (golang)
 * Singletone (python)
-* Decorator Pattern (golang)
-* Strategy Pattern (python)
-* Adapter Pattern (rust)
-* Command Pattern (golang)
-* Iterator Pattern (golang)
+* Decorator (golang)
+* Strategy (python)
+* Adapter (rust)
+* Command (golang)
+* Iterator (golang)
 * Abstract Factory (rust)
+* Chain of Responsibility (golang)
 
 ### Design Pattern Types
 
