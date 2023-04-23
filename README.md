@@ -17,6 +17,7 @@ All information comes from <https://www.geeksforgeeks.org/software-design-patter
 * Iterator (golang)
 * Abstract Factory (rust)
 * Chain of Responsibility (golang)
+* Bridge (golang)
 
 ### Design Pattern Types
 
