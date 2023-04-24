@@ -16,7 +16,7 @@ By using the Composite pattern, you can simplify operations on hierarchical stru
 
 I implemented it by imagining a hierarchy of files and directories in a filesystem. Directories play a role of `composites` (they may contain other directories-composites or files-leafs) and files are `leafs`.
 
-We represent both Directories and Files with `FileSystemNode` interface.
+We represent both Directories and Files with `FileSystemNode` interface (`Component`).
 
 In `main.go`, the root variable represents this file structure:
 
