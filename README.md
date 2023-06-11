@@ -19,6 +19,7 @@ All information comes from <https://www.geeksforgeeks.org/software-design-patter
 * Chain of Responsibility (golang)
 * Bridge (golang)
 * Builder (golang)
+* Proxy (rust)
 
 ### Design Pattern Types
 
